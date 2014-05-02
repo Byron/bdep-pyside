@@ -1,0 +1,14 @@
+prefix=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release
+exec_prefix=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release
+libdir=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release/lib
+includedir=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release/include/PySide
+typesystemdir=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release/share/PySide/typesystems
+pythonpath=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release/lib/python2.7/site-packages
+
+Name: PySide
+Description: Support library for Python bindings of Qt-based libraries.
+Version: 1.2.2
+Libs: -L${libdir} -lpyside-python2.7
+Cflags: -I${includedir}
+Requires: shiboken
+

@@ -1,0 +1,13 @@
+prefix=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release
+exec_prefix=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release
+libdir=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release/lib
+includedir=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release/include/shiboken
+generator_location=/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release/bin/shiboken
+python_interpreter=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python
+python_include_dir=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7
+
+Name: shiboken
+Description: Support library for Python bindings created with Shiboken generator.
+Version: 1.2.2
+Libs: -undefined dynamic_lookup -L${libdir} -lshiboken-python2.7
+Cflags: -I/opt/local/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -I${includedir}/

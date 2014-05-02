@@ -1,0 +1,5 @@
+if (NOT PYTHON_BASENAME)
+    message(STATUS "Using default python: -python2.7")
+    SET(PYTHON_BASENAME -python2.7)
+endif()
+include(/Users/byron/Documents/dev/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.6-64bit-release/lib/cmake/PySide-1.2.2/PySideConfig${PYTHON_BASENAME}.cmake)
