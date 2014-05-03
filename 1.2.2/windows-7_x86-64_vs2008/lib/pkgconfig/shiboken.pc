@@ -1,0 +1,13 @@
+prefix=q:/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.4-64bit-release
+exec_prefix=q:/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.4-64bit-release
+libdir=q:/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.4-64bit-release/lib
+includedir=q:/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.4-64bit-release/include/shiboken
+generator_location=q:/bdep-oss/pyside-setup-tmp/pyside_install/py2.7-qt4.8.4-64bit-release/bin/shiboken
+python_interpreter=c:/Python27/python.exe
+python_include_dir=c:/Python27/include
+
+Name: shiboken
+Description: Support library for Python bindings created with Shiboken generator.
+Version: 1.2.2
+Libs: c:/Python27/libs/python27.lib -L${libdir} -lshiboken-python2.7
+Cflags: -Ic:/Python27/include -I${includedir}/
