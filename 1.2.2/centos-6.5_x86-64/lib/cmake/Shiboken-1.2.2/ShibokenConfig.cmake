@@ -1,0 +1,5 @@
+if (NOT PYTHON_SUFFIX)
+    message(STATUS "Using default python: -python2.6")
+    SET(PYTHON_SUFFIX -python2.6)
+endif()
+include(/tmp/pyside-setup-tmp/pyside_install/py2.6-qt4.8.6-64bit-release/lib/cmake/Shiboken-1.2.2/ShibokenConfig${PYTHON_SUFFIX}.cmake)

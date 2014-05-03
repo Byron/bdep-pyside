@@ -1,0 +1,14 @@
+prefix=/tmp/pyside-setup-tmp/pyside_install/py2.6-qt4.8.6-64bit-release
+exec_prefix=/tmp/pyside-setup-tmp/pyside_install/py2.6-qt4.8.6-64bit-release
+libdir=/tmp/pyside-setup-tmp/pyside_install/py2.6-qt4.8.6-64bit-release/lib
+includedir=/tmp/pyside-setup-tmp/pyside_install/py2.6-qt4.8.6-64bit-release/include/PySide
+typesystemdir=/tmp/pyside-setup-tmp/pyside_install/py2.6-qt4.8.6-64bit-release/share/PySide/typesystems
+pythonpath=/tmp/pyside-setup-tmp/pyside_install/py2.6-qt4.8.6-64bit-release/lib64/python2.6/site-packages
+
+Name: PySide
+Description: Support library for Python bindings of Qt-based libraries.
+Version: 1.2.2
+Libs: -L${libdir} -lpyside-python2.6
+Cflags: -I${includedir}
+Requires: shiboken
+
